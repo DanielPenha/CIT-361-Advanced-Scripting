@@ -1,0 +1,9 @@
+<# 
+Program Name: hello.ps1
+Date: 24 Jan 2024
+Author: Daniel Daniel Penha
+Course: CIT361 I, Daniel Tepedino Penha, affirm that I wrote this script as original work completed by me. 
+#>
+'Hello wonderful world!'
+$name = Read-host "What is your name?" 
+Write-Host "Good day $name. It is $(Get-Date)."
